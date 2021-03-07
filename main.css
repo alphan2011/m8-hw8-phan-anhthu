@@ -29,8 +29,11 @@
   box-sizing: border-box;
 }
 .hide {
-  display: none;
+  height: 0px;
+  overflow: hidden;
+  transition: height 1s;
 }
 .show {
-  display: block;
+  height: 180px;
+  transition: height 1s;
 }
